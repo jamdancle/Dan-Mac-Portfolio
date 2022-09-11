@@ -1,0 +1,133 @@
+
+
+body {
+  background-image: url("./Asset/Whitepaint.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.container {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between; 
+    width: 100%;
+    font-family: monospace;
+    align-items: center;
+}
+
+span {
+  color: var(--color3)
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 40px;
+  font-family: monospace;
+  font-size: 140%;
+  font-weight: bolder;
+}
+
+nav ul li:hover {
+ transform: scale(1.2);
+ color: black;
+}
+
+
+@media screen and (max-width: 991px) {
+  nav ul li {
+    padding: 10px 10px;
+  }
+
+}
+  
+
+@media screen and (max-width: 575px) {
+  .container {
+    display: block;
+  
+  }
+
+}
+
+
+
+
+
+.Timber {
+  background-size: cover;
+  }
+
+.text-block {
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  background-color: beige;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+h1 {
+    margin-right: 50px 
+    color: rgb(1, 1, 17);
+    text: bold;
+
+}
+
+button {
+  align-items: flex-end;
+  margin-block-end: auto;
+}
+
+button {
+  border: none;
+  background-color: red;
+  padding: 12px 30px;
+  border-radius: 30px;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 15px;
+  transition: .1s;
+}
+
+button:hover {
+  transform: scale(1.2);
+  cursor: grab;
+
+}
+.about {
+    background-color: rgb(214, 224, 236);
+    padding: 50px;
+}
+
+.main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+:root {
+    --color1: orange;
+    --color2: rgb(142, 160, 216);
+    --color3: rgb(62, 62, 228);
+    --color4: yellow;
+    --margin: 30px;
+    
+}/*
+    justify-content: end;
+    justify-content: space-around;
+    justify-content: space-between;
+    */
