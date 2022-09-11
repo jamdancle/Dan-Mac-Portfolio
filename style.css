@@ -11,12 +11,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.logo {
+  margin-top: 0; 
+}
 
 
 .container {
     display: flex;
-    padding-top: 20px;
+    padding-top: 10px;
     justify-content: space-between; 
     width: 100%;
     font-family: monospace;
@@ -25,6 +27,15 @@ body {
 
 span {
   color: var(--color3)
+}
+
+nav {
+  display: flex;
+  padding-right: 5px;
+}
+
+nav ul {
+  margin-top: 0; 
 }
 
 nav ul li {
