@@ -53,29 +53,51 @@ nav ul li:hover {
 }
 
 
+
+.common {
+  width: 48%;
+  min-width: 48%;
+  height: 30px;
+  border: 5px solid cornflowerblue;
+  display: inline-block;
+}
+
+
+#About {
+  background-color: brown;
+}
+
+#Contact {
+  background-color: blueviolet;
+}
+
+
+
+/* Medium breakpoint */
 @media screen and (max-width: 991px) {
   nav ul li {
     padding: 10px 10px;
   }
 
 }
-  
+ /* small breakpoint */ 
+@media screen and (max-width: 767px) {
+.common {
+  width: 100%;
+}
+}
 
+/* x-small breakpoint */
 @media screen and (max-width: 575px) {
   .container {
     display: block;
-  
   }
-
 }
 
-
-
-
-
-.Timber {
-  background-size: cover;
-  }
+#Timber {
+width: 50%;
+height: 25%;
+}
 
 .text-block {
   position: absolute;
