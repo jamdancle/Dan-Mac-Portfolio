@@ -88,6 +88,8 @@ html {
   background-repeat: no-repeat;
 }
 
+
+
 #portfolio {
   background-image: url(./Asset/coloured\ boards\ vertical\ img.jpg);
   background-size: cover;
@@ -106,45 +108,7 @@ html {
   background-repeat: no-repeat;
 }
 
-/* Medium breakpoint */
-@media screen and (max-width: 991px) {
-  nav ul li {
-    padding: 10px 10px;
-  }
 
-}
-
-/* small breakpoint */
-@media screen and (max-width: 767px) {
-  .common {
-    width: 100%;
-  }
-}
-
-/* x-small breakpoint */
-@media screen and (max-width: 575px) {
-  .container {
-    display: block;
-  }
-}
-
-
-/* tried to include button on image but not responsive */
-/*
-.text-block {
-  position: absolute;
-  bottom: 0;
-  right: 30px;
-  background-color: rgb(119, 119, 26);
-  color: black;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
-  border-bottom-left-radius: 50%;
-}
-*/
 h1 {
   margin-right: 50px;
   color: rgb(1, 1, 17);
@@ -173,12 +137,17 @@ button:hover {
 
 }
 
-.about {
+.links {
   padding: 60px;
-  background-image: url(./Asset/Rocks\ .jpg);
+  background-image: url(./Asset/Coloured\ Boards\ horizontal\ img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 
+}
+
+.row {
+  text-align: center 
+  
 }
 
 .main {
@@ -196,7 +165,29 @@ footer {
   --color3: rgb(62, 62, 228);
   --color4: yellow;
   --margin: 30px;
+}
 
+
+/* Medium breakpoint */
+@media screen and (max-width: 991px) {
+  nav ul li {
+    padding: 10px 10px;
+  }
+
+}
+
+/* small breakpoint */
+@media screen and (max-width: 767px) {
+  .common {
+    width: 100%;
+  }
+}
+
+/* x-small breakpoint */
+@media screen and (max-width: 575px) {
+  .container {
+    display: block;
+  }
 }
 
 /*
@@ -204,3 +195,20 @@ footer {
     justify-content: space-around;
     justify-content: space-between;
     */
+
+/* tried to include button on image but not responsive */
+/*
+.text-block {
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  background-color: rgb(119, 119, 26);
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+*/
